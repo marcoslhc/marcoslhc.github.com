@@ -1,0 +1,4 @@
+root = true
+[all]
+tab_style = space
+tab_size = 2
