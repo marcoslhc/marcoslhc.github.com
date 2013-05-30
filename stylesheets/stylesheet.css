@@ -55,7 +55,6 @@ body {
   font-family: 'Merriweather Sans', Helvetica, Arial, serif;
   text-shadow: 0 1px 1px rgba(64, 64, 64, 0.8);
   color: rgb(220,220,215);
-  font-weight:400;
 }
 
 a {
@@ -84,6 +83,7 @@ header h1 {
   font-size: 90px;
   color: rgb(64,64,64);
   line-height: 1.2;
+  font-weight:400;
 }
 
 header h2 {
