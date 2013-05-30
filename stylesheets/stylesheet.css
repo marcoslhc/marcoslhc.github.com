@@ -66,8 +66,8 @@ a:hover {
 
 header {
   padding-top: 35px;
-  background-image:-webkit-linear-gradient(top,rgba(64,64,64,.3) 0%,rgba(64,64,64,.0) 1%),
-  -webkit-radial-gradient(center bottom,rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+  background-image:linear-gradient(top,rgba(64,64,64,.3) 0%,rgba(64,64,64,.0) 1%),
+  radial-gradient(center bottom,rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
   background-color:rgb(220,220,215);
   box-shadow:0 3px 3px rgba(64,64,64,0.5);
   
@@ -97,7 +97,8 @@ header h2 {
   NAVIGATION
 */
 #main-nav {
-    background:rgb(0,206,209) -webkit-linear-gradient(top,
+    background-color:rgb(0,206,209);
+    background-image: linear-gradient(top,
     rgba(0,106,109,.3) 0%, 
     rgba(0,106,109,.1) 30%, 
     rgba(0,106,109,0) 50%,
@@ -140,7 +141,7 @@ header h2 {
 }
 
 #container {
-  background: transparent -webkit-radial-gradient(center top, rgba(255,255,255,.5) 0%, rgba(255,255,255,.0) 100%);
+  background: transparent gradient(center top, rgba(255,255,255,.5) 0%, rgba(255,255,255,.0) 100%);
   min-height: 595px;
   max-height:100%;
 }
