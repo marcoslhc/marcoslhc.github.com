@@ -51,10 +51,10 @@ table {
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: rgb(40,54,54);
   font-family: 'Merriweather Sans', Helvetica, Arial, serif;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  color: #6d6d6d;
+  text-shadow: 0 1px 1px rgba(64, 64, 64, 0.8);
+  color: rgb(220,220,215);
 }
 
 a {
@@ -67,13 +67,21 @@ a:hover {
 header {
   padding-top: 35px;
   padding-bottom: 25px;
+  background-image:-webkit-linear-gradient(top,rgba(64,64,64,.3) 0%,rgba(64,64,64,.0) 1%),
+  -webkit-radial-gradient(center bottom,rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+  background-color:rgb(220,220,215);
+  box-shadow:0 3px 3px rgba(64,64,64,0.5);
+  
 }
-
+header .center-block {
+    margin:0 auto;
+    width:620px;
+}
 header h1 {
   font-family: 'Yesteryear', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 90px;
-  color: #303030;
+  color: rgb(64,64,64);
   line-height: 1.2;
 }
 
@@ -86,13 +94,13 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent -webkit-radial-gradient(center top, rgba(255,255,255,.5) 0%, rgba(255,255,255,.0) 100%);
   min-height: 595px;
 }
 
 .inner {
   width: 620px;
-  margin: 0 auto;
+  margin: 1.6em auto 0px;
 }
 
 #container .inner img {
@@ -308,14 +316,21 @@ ol li {
 dl dt {
   color: #303030;
 }
-
+footer:before{
+  display:block;
+  content:'';
+  background:transparent url('../images/hr.png') 50% 50% no-repeat;
+  width:100%;
+  height:10px;
+}
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  display:block;  
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
   color: #aaa;
+  width:620px;
 }
 
 footer a {
@@ -324,6 +339,7 @@ footer a {
 footer a:hover {
   color: #444;
 }
+
 
 /* MISC */
 .clearfix:after {
