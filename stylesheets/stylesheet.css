@@ -222,6 +222,10 @@ a.button span {
   margin-right: 0;
 }
 
+#feat {
+  color:rgb(255,155,0);
+}
+
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
