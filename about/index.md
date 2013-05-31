@@ -1,7 +1,8 @@
 ---
 layout: default
-Title:  About
+title:  About me
 ---
+
 #Bio
 Born in Valencia, Venezuela in a big extense family. I lived in Caracas & Barquisimeto, but mostly in Valencia where I developed professionaly.
 
