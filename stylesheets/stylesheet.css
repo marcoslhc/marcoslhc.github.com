@@ -125,7 +125,7 @@ a:hover {
     list-style: none;
     display: inline-block;
     line-height:1.6em;
-    width: calc(100% / 5);
+    width: 120px;
     margin:0;
     padding:0;
 }
