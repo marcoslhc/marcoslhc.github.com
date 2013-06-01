@@ -129,10 +129,10 @@ a:hover {
     margin:0;
     padding:0;
 }
-#main-nav li:hover:after,#main-nav li.selected{
+#main-nav li:hover:after, #main-nav li.selected{
     content:'';
     position:absolute;
-    top:40px; left:10px;
+    top:49px; left:10px;
     border-top:solid .628em rgb(0,206,209);
     border-right:solid .618em transparent;
     border-bottom:solid .618em transparent;
@@ -397,7 +397,7 @@ dl dt {
   color: #666;
 }
 .footer a:hover {
-  color: #444;
+  color: rgb(255,155,0);
   transition: color 0.2s ease-in-out;
 }
 
