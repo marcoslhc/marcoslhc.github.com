@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     default
 title:       very first post
 published:  true
 ---
