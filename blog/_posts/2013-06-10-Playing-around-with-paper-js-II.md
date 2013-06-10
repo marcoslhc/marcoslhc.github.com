@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  Playing Around with Paper.js
+published: true
 ---
 Last week i posted about some experiments I did with [Paper.js][0]. Well my first approach is [this][1]. Some time ago, I was stunned
 with [flat surface shader (FSS)][2] and decided to port the native js application to PaperScript. So far the differences are huge.
