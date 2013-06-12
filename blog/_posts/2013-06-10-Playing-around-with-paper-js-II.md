@@ -1,6 +1,6 @@
 ---
-layout: default
-title:  Playing Around with Paper.js
+layout: posts
+title:  Playing Around with Paper.js (&amp; II)
 published: true
 ---
 Last week i posted about some experiments I did with [Paper.js][0]. Well my first approach is [this][1]. Some time ago, I was stunned

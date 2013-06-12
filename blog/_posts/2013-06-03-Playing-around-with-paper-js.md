@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  Playing Around with Paper.js
 ---
 I have this client, who said if he have to choose between a regular website and
