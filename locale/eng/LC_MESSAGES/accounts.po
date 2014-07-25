@@ -21,7 +21,7 @@ msgid ""
 "Payoneer account shortly."
 msgstr ""
 "Your Wallet transfer has been submitted. You should see the money in your "
-"Payoneer account shortly."
+"Payoneer account shortly"
 
 #: /controllers/accounts_controller.php:764
 msgid "We couldn't make a transfer to your Payoneer account. Try again later."
