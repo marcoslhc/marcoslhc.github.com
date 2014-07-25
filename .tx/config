@@ -1,0 +1,9 @@
+[main]
+https://www.transifex.com/projects/p/marcos-personal-pages/
+
+[marcos-personal-pages]
+file_filter = po/<lang><lang>.po
+source_file = po/myproj.pot
+source_lang = en
+trns.es = locale/spa/LC_MESSAGES/marcoslhc.po
+type = po
